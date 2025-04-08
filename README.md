@@ -8,26 +8,34 @@ if for some reason you want to download this and compile it here are dependencie
 
 ## dependencies
 
- - raylib
- - c++
+ - raylib  
+ - c++  
  
-(amzing right?)
+(amazing right?)
 
 # example installation
 
 ## dependencies
- - visual studio 2015 or newer
- - git
- - windows 7 or newer
- 
+ - visual studio 2015 or newer  
+ - git  
+ - windows 7 or newer  
 
-1. First download vcpkg using the guide [here](https://vcpkg.io/en/getting-started.html)
-2. Enter the folder where vcpkg is located using cmd
-3. Type ```vcpkg install raylib[use-audio]```
-4. After raylib installs type ```vcpkg install raylib[use-audio]:x64-windows]
-5. After the installation ends type ```vpckg integrate all```
-6. Download the project and open it via visual studio and all should work properly!
+1. First download vcpkg using the guide [here](https://vcpkg.io/en/getting-started.html)  
+2. Enter the folder where vcpkg is located using cmd  
+3. Type `vcpkg install raylib[use-audio]`  
+4. After raylib installs type `vcpkg install raylib[use-audio]:x64-windows`  
+5. After the installation ends type `vcpkg integrate install`  
+6. Download the project and open it via Visual Studio and all should work properly!
 
-# Plans for this
+# current features
 
-![TO-DO LIST](![image](https://user-images.githubusercontent.com/49454508/212492799-d437286d-cd2f-444b-9ffb-595f52ebc1f6.png))
+ - custom tetromino support (add your own pieces)  
+ - custom board creation  
+ - modern SRS rotation system  
+ - support for adding any custom rotation system  
+ - level select menu  
+ - custom tetromino skins  
+
+# plans for this
+
+![TO-DO LIST](https://user-images.githubusercontent.com/49454508/212492799-d437286d-cd2f-444b-9ffb-595f52ebc1f6.png)
