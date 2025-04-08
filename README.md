@@ -1,4 +1,4 @@
-# shitris
+# tetrisCLNCPP
 
 Honestly I was just bored so I made this. Prolly going to work on this later but right now I will most likely drop this.
 
